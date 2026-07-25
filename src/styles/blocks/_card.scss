@@ -6,7 +6,7 @@
   border-radius: $card-border-radius;
   background-color: $card-background-color;
   transition: transform $transition-duration;
-  
+
   &:hover {
     transform: scale($card-hover-scale);
     z-index: 1;
