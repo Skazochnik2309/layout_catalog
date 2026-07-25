@@ -1,83 +1,38 @@
 {
-  "id": "catalog_test",
+  "id": "backstop_default",
   "viewports": [
     {
-      "label": "1024px",
-      "width": 1024,
-      "height": 768
+      "label": "phone",
+      "width": 320,
+      "height": 480
     },
     {
-      "label": "1200px",
-      "width": 1200,
-      "height": 800
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Entire document",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "selectors": [
-        "body"
-      ]
-    },
-    {
-      "label": "Header",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "selectors": [
-        ".header"
-      ]
-    },
-    {
-      "label": "Nav",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "selectors": [
-        ".nav"
-      ]
-    },
-    {
-      "label": "Link with data-qa hover",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "hoverSelector": "[data-qa=\"nav-hover\"]",
-      "selectors": [
-        "[data-qa=\"nav-hover\"]"
-      ]
-    },
-    {
-      "label": "Link with class is-active",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "selectors": [
-        ".is-active"
-      ]
-    },
-    {
-      "label": "Main",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "selectors": [
-        "main"
-      ]
-    },
-    {
-      "label": "Card with data-qa card",
-      "url": "http://localhost:3000/",
-      "readySelector": "body",
-      "delay": 2000,
-      "selectors": [
-        "[data-qa=\"card\"]"
-      ]
+      "label": "BackstopJS Homepage",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://garris.github.io/BackstopJS/",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
     }
   ],
   "paths": {
@@ -87,14 +42,10 @@
     "html_report": "backstop_data/html_report",
     "ci_report": "backstop_data/ci_report"
   },
-  "report": [
-    "browser"
-  ],
+  "report": ["browser"],
   "engine": "puppeteer",
   "engineOptions": {
-    "args": [
-      "--no-sandbox"
-    ]
+    "args": ["--no-sandbox"]
   },
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
