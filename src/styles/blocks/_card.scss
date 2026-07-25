@@ -1,4 +1,4 @@
-@use './variables' as *;
+@use '../variables' as *;
 
 .card {
   box-sizing: border-box;
@@ -8,6 +8,7 @@
   border-radius: $card-border-radius;
   background-color: $card-background-color;
   transition: transform $transition-duration;
+}
 
   &:hover {
     transform: scale($card-hover-scale);
@@ -110,5 +111,5 @@
     color: $card-accent-color;
     background-color: $card-background-color;
   }
-  }
+
 
