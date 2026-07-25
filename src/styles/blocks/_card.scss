@@ -8,12 +8,12 @@
   border-radius: $card-border-radius;
   background-color: $card-background-color;
   transition: transform $transition-duration;
-}
 
   &:hover {
     transform: scale($card-hover-scale);
     z-index: 1;
   }
+}
 
   &__label {
     width: 100%;
@@ -104,12 +104,11 @@
       color $transition-duration,
       background-color $transition-duration,
       border-color $transition-duration;
-  }
 
   .card__buy:hover {
     border: $card-border-width solid $card-accent-color;
     color: $card-accent-color;
     background-color: $card-background-color;
   }
-
+  }
 
