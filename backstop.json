@@ -30,7 +30,8 @@
   "scenarios": [
     {
       "label": "Catalog Page - Default",
-      "url": "http://localhost:8080",
+      "url": "https://Skazochnik2309.github.io/layout_catalog",
+,
       "selectors": [
         "document"
       ],
@@ -40,7 +41,7 @@
     },
     {
       "label": "Catalog Page - Nav Hover",
-      "url": "http://localhost:8080",
+      "url": "https://Skazochnik2309.github.io/layout_catalog",
       "hoverSelector": "[data-qa='nav-hover']",
       "selectors": [
         "document"
@@ -51,7 +52,7 @@
     },
     {
       "label": "Catalog Page - Card Hover",
-      "url": "http://localhost:8080",
+      "url": "https://Skazochnik2309.github.io/layout_catalog",
       "hoverSelector": "[data-qa='card-hover']",
       "selectors": [
         "document"
