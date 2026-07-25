@@ -11,15 +11,15 @@
   }
 
   &__link {
-    color: #060b35;
+    color: $default-text-color;
     text-decoration: none;
     transition: color 300ms ease-in-out;
     &.is-active {
       font-weight: 700;
     }
-    
+
     &:hover {
-      color: #00acdc;
+      color: $hover-text-color;
     }
   }
 }
