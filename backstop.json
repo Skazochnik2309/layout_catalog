@@ -1,38 +1,64 @@
 {
-  "id": "backstop_default",
+  "id": "catalog_page",
   "viewports": [
     {
-      "label": "phone",
+      "label": "small_phone",
       "width": 320,
       "height": 480
     },
     {
+      "label": "medium_phone",
+      "width": 488,
+      "height": 600
+    },
+    {
       "label": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "label": "desktop_small",
       "width": 1024,
       "height": 768
+    },
+    {
+      "label": "desktop_large",
+      "width": 1280,
+      "height": 900
     }
   ],
-  "onBeforeScript": "puppet/onBefore.js",
-  "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "label": "Catalog Page - Default",
+      "url": "http://localhost:8080",
+      "selectors": [
+        "document"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false,
+      "delay": 500
+    },
+    {
+      "label": "Catalog Page - Nav Hover",
+      "url": "http://localhost:8080",
+      "hoverSelector": "[data-qa='nav-hover']",
+      "selectors": [
+        "document"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false,
+      "delay": 500
+    },
+    {
+      "label": "Catalog Page - Card Hover",
+      "url": "http://localhost:8080",
+      "hoverSelector": "[data-qa='card-hover']",
+      "selectors": [
+        "document"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false,
+      "delay": 500
     }
   ],
   "paths": {
@@ -42,10 +68,15 @@
     "html_report": "backstop_data/html_report",
     "ci_report": "backstop_data/ci_report"
   },
-  "report": ["browser"],
+  "report": [
+    "browser"
+  ],
   "engine": "puppeteer",
   "engineOptions": {
-    "args": ["--no-sandbox"]
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   },
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
