@@ -1,7 +1,8 @@
 html {
   font-family: Roboto, Arial, Helvetica, sans-serif;
-
+  
   --default-text-color: #060b35;
+  --hover-text-color: #00acdc;
 }
 
 body {
@@ -35,11 +36,6 @@ body {
 
 .nav__link:hover {
   color: var(--hover-text-color);
-}
-
-.is-active {
-  color: var(--hover-text-color);
-  position: relative;
 }
 
 .is-active::after {
