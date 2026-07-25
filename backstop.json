@@ -31,7 +31,6 @@
     {
       "label": "Catalog Page - Default",
       "url": "https://Skazochnik2309.github.io/layout_catalog",
-,
       "selectors": [
         "document"
       ],
