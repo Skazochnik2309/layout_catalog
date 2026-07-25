@@ -1,13 +1,17 @@
 .nav {
   &__list {
     display: flex;
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
   }
-
+  
   &__item {
     margin-right: 20px;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {
@@ -15,8 +19,20 @@
     color: $default-text-color;
     text-decoration: none;
     transition: color 300ms ease-in-out;
+
     &.is-active {
       font-weight: 700;
+
+      &::after {
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        border-radius: 8px;
+        background-color: $hover-text-color;
+      }
     }
 
     &:hover {

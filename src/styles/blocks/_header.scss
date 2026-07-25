@@ -1,12 +1,3 @@
-html {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0;
-  font-size: 12px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -18,30 +9,4 @@ body {
 
 .logo {
   display: block;
-}
-
-.nav__list {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__list .nav__item:not(:last-child) {
-  margin-right: 20px;
-}
-
-.nav__link:hover {
-  color: $hover-text-color;
-}
-
-.is-active::after {
-  content: '';
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  border-radius: 8px;
-  background-color: $hover-text-color;
 }
