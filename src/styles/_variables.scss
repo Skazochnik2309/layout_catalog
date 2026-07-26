@@ -1,7 +1,6 @@
+$font-family-main: 'Roboto', sans-serif;
+$header-height: 60px;
 $default-text-color: #060b35;
-$hover-text-color: #00acdc;
-$font-family-main: Roboto, sans-serif;
-$transition-duration: 300ms;
 $card-width: 200px;
 $card-padding-top: 32px;
 $card-padding-horizontal: 16px;
@@ -10,15 +9,17 @@ $card-border-width: 1px;
 $card-border-color: #f3f3f3;
 $card-border-radius: 5px;
 $card-background-color: #fff;
+$card-label-margin-bottom: 40px;
 $card-image-width: 160px;
 $card-image-height: 134px;
 $card-title-margin-bottom: 4px;
 $card-code-margin-bottom: 16px;
-$card-rating-margin-bottom: 24px;
+$card-rating-margin-bottom: 24px; // тут поправив на 24 пікселі
 $card-price-row-margin-bottom: 16px;
 $card-text-color: #060b35;
 $card-secondary-text-color: #616070;
 $card-accent-color: #00acdc;
 $card-title-hover-color: #34568b;
+$transition-duration: 300ms;
 $card-hover-scale: 1.2;
 $star-size: 16px;

@@ -1,12 +1,22 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 0 50px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-}
+  height: 60px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.05);
 
-.logo {
-  display: block;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  &__logo img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
 }
