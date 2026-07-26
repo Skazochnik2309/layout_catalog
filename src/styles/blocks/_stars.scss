@@ -1,12 +1,12 @@
 .stars {
   display: flex;
-  gap: 4px; // Тут додав цей gap
+  gap: 4px;
 
   &__star {
     display: block;
     width: $star-size;
     height: $star-size;
-    background-image: url('../images/star.svg');
+    background-image: url("../images/star.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -17,6 +17,6 @@
   &--3 .stars__star:nth-child(-n + 3),
   &--4 .stars__star:nth-child(-n + 4),
   &--5 .stars__star:nth-child(-n + 5) {
-    background-image: url('../images/star-active.svg');
+    background-image: url("../images/star-active.svg");
   }
 }

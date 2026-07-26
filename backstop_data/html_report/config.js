@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Default_0_document_0_small_phone.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Default_0_document_0_small_phone.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Default_0_document_0_small_phone.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Default_0_document_0_small_phone.png",
         "label": "Catalog Page - Default",
@@ -27,7 +27,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Default_0_document_1_medium_phone.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Default_0_document_1_medium_phone.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Default_0_document_1_medium_phone.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Default_0_document_1_medium_phone.png",
         "label": "Catalog Page - Default",
@@ -50,7 +50,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Default_0_document_2_tablet.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Default_0_document_2_tablet.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Default_0_document_2_tablet.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Default_0_document_2_tablet.png",
         "label": "Catalog Page - Default",
@@ -73,7 +73,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Default_0_document_3_desktop_small.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Default_0_document_3_desktop_small.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Default_0_document_3_desktop_small.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Default_0_document_3_desktop_small.png",
         "label": "Catalog Page - Default",
@@ -96,7 +96,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Default_0_document_4_desktop_large.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Default_0_document_4_desktop_large.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Default_0_document_4_desktop_large.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Default_0_document_4_desktop_large.png",
         "label": "Catalog Page - Default",
@@ -119,7 +119,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_0_small_phone.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_0_small_phone.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_0_small_phone.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Nav_Hover_0_document_0_small_phone.png",
         "label": "Catalog Page - Nav Hover",
@@ -142,7 +142,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_1_medium_phone.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_1_medium_phone.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_1_medium_phone.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Nav_Hover_0_document_1_medium_phone.png",
         "label": "Catalog Page - Nav Hover",
@@ -165,7 +165,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_2_tablet.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_2_tablet.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_2_tablet.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Nav_Hover_0_document_2_tablet.png",
         "label": "Catalog Page - Nav Hover",
@@ -188,7 +188,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_3_desktop_small.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_3_desktop_small.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_3_desktop_small.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Nav_Hover_0_document_3_desktop_small.png",
         "label": "Catalog Page - Nav Hover",
@@ -211,7 +211,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_4_desktop_large.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_4_desktop_large.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Nav_Hover_0_document_4_desktop_large.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Nav_Hover_0_document_4_desktop_large.png",
         "label": "Catalog Page - Nav Hover",
@@ -234,7 +234,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Card_Hover_0_document_0_small_phone.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Card_Hover_0_document_0_small_phone.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Card_Hover_0_document_0_small_phone.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Card_Hover_0_document_0_small_phone.png",
         "label": "Catalog Page - Card Hover",
@@ -257,7 +257,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Card_Hover_0_document_1_medium_phone.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Card_Hover_0_document_1_medium_phone.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Card_Hover_0_document_1_medium_phone.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Card_Hover_0_document_1_medium_phone.png",
         "label": "Catalog Page - Card Hover",
@@ -280,7 +280,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Card_Hover_0_document_2_tablet.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Card_Hover_0_document_2_tablet.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Card_Hover_0_document_2_tablet.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Card_Hover_0_document_2_tablet.png",
         "label": "Catalog Page - Card Hover",
@@ -303,7 +303,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Card_Hover_0_document_3_desktop_small.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Card_Hover_0_document_3_desktop_small.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Card_Hover_0_document_3_desktop_small.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Card_Hover_0_document_3_desktop_small.png",
         "label": "Catalog Page - Card Hover",
@@ -326,7 +326,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\catalog_page_Catalog_Page_-_Card_Hover_0_document_4_desktop_large.png",
-        "test": "..\\bitmaps_test\\20260725-174354\\catalog_page_Catalog_Page_-_Card_Hover_0_document_4_desktop_large.png",
+        "test": "..\\bitmaps_test\\20260725-180856\\catalog_page_Catalog_Page_-_Card_Hover_0_document_4_desktop_large.png",
         "selector": "document",
         "fileName": "catalog_page_Catalog_Page_-_Card_Hover_0_document_4_desktop_large.png",
         "label": "Catalog Page - Card Hover",

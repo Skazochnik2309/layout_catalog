@@ -7,15 +7,11 @@
   background-color: $card-background-color;
   transition: transform $transition-duration;
 
-  &:hover {
-    transform: scale($card-hover-scale);
-  }
-
   &__image {
     display: block;
     width: $card-image-width;
     height: $card-image-height;
-    margin: auto;
+    margin: 0 auto;
   }
 
   &__title {
@@ -81,25 +77,31 @@
     box-sizing: border-box;
     width: 166px;
     height: 40px;
+    border: $card-border-width solid transparent;
     border-radius: $card-border-radius;
     font-size: 14px;
     font-weight: 700;
     color: $card-background-color;
     text-decoration: none;
     background-color: $card-accent-color;
+
     transition:
       color $transition-duration,
       background-color $transition-duration,
       border-color $transition-duration;
 
     &:hover {
-      border: $card-border-width solid $card-accent-color;
+      border-color: $card-accent-color;
       color: $card-accent-color;
       background-color: $card-background-color;
     }
   }
-}
 
-.card:hover .card__title {
-  color: $card-title-hover-color;
+  &:hover {
+    transform: scale($card-hover-scale);
+
+    .card__title {
+      color: $card-title-hover-color;
+    }
+  }
 }
