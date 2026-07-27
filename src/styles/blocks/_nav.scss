@@ -1,18 +1,21 @@
 .nav {
+  align-self: stretch;
   height: 100%;
 
   &__list {
     display: flex;
-    align-items: center;
     gap: 40px;
 
     height: 100%;
     margin: 0;
     padding: 0;
-    list-style: none; // Скидаємо маркери списку
+
+    list-style: none;
   }
 
   &__item {
+    display: flex;
+    align-items: center;
     height: 100%;
   }
 
@@ -25,12 +28,12 @@
     height: 100%;
     padding: 0;
 
-    color: $default-text-color;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
+    color: $default-text-color;
+    text-decoration: none;
     text-transform: uppercase;
-    text-decoration: none; // Критично: прибираємо підкреслення браузера
 
     transition: color $transition-duration;
 
@@ -38,13 +41,13 @@
       content: '';
 
       position: absolute;
-
       right: 0;
       bottom: 0;
       left: 0;
 
       height: 4px;
       border-radius: 2px 2px 0 0;
+
       background-color: transparent;
 
       transition: background-color $transition-duration;
