@@ -28,9 +28,11 @@
     line-height: 14px;
     text-transform: uppercase;
 
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 
     &::after {
+      content: '';
+
       position: absolute;
 
       right: 0;
@@ -38,9 +40,7 @@
       left: 0;
 
       height: 4px;
-
-      content: '';
-
+      border-radius: 8px;
       background-color: transparent;
     }
 

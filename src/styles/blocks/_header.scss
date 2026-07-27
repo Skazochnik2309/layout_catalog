@@ -1,9 +1,13 @@
 .header {
+  display: flex;
+  justify-content: center;
+
   height: $header-height;
   background-color: #fff;
 
   &__content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 
     height: 100%;
