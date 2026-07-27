@@ -1,4 +1,5 @@
 .card {
+  position: relative;
   box-sizing: border-box;
   width: $card-width;
   padding: $card-padding-top $card-padding-horizontal $card-padding-bottom;

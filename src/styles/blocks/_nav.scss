@@ -22,13 +22,13 @@
     height: 100%;
     padding: 0;
 
-    color: #000;
+    color: $default-text-color;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
     text-transform: uppercase;
 
-    transition: color 0.3s ease;
+    transition: color $transition-duration;
 
     &::after {
       content: '';
@@ -42,17 +42,23 @@
       height: 4px;
       border-radius: 8px;
       background-color: transparent;
+
+      transition: background-color $transition-duration;
     }
 
     &:hover {
-      color: #00acdc;
+      color: $card-accent-color;
+
+      &::after {
+        background-color: $card-accent-color;
+      }
     }
 
     &.is-active {
-      color: #00acdc;
+      color: $card-accent-color;
 
       &::after {
-        background-color: #00acdc;
+        background-color: $card-accent-color;
       }
     }
   }
