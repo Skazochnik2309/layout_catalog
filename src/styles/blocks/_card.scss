@@ -19,7 +19,7 @@
     display: block;
     width: $card-image-width;
     height: $card-image-height;
-    margin: 0 auto $card-label-margin-bottom;
+    margin: 0 auto $card-image-margin-bottom; // Виправлено назву змінної
   }
 
   &__title {
@@ -93,12 +93,13 @@
     align-items: center;
     justify-content: center;
 
-    width: 166px;
+    width: 100%; // Ширина на 100% контентної області
     height: 40px;
     border: $card-border-width solid transparent;
     border-radius: $card-border-radius;
 
     color: $card-background-color;
+    text-decoration: none; // Прибираємо стандартне підкреслення
 
     background-color: $card-accent-color;
 
@@ -106,11 +107,11 @@
       color $transition-duration,
       background-color $transition-duration,
       border-color $transition-duration;
-  }
 
-  &__buy:hover {
-    border-color: $card-accent-color;
-    color: $card-accent-color;
-    background-color: $card-background-color;
+    &:hover {
+      border-color: $card-accent-color;
+      color: $card-accent-color;
+      background-color: $card-background-color;
+    }
   }
 }

@@ -7,6 +7,9 @@
     gap: 40px;
 
     height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none; // Скидаємо маркери списку
   }
 
   &__item {
@@ -27,6 +30,7 @@
     font-weight: 700;
     line-height: 14px;
     text-transform: uppercase;
+    text-decoration: none; // Критично: прибираємо підкреслення браузера
 
     transition: color $transition-duration;
 
@@ -40,20 +44,13 @@
       left: 0;
 
       height: 4px;
-      border-radius: 8px;
+      border-radius: 2px 2px 0 0;
       background-color: transparent;
 
       transition: background-color $transition-duration;
     }
 
-    &:hover {
-      color: $card-accent-color;
-
-      &::after {
-        background-color: $card-accent-color;
-      }
-    }
-
+    &:hover,
     &.is-active {
       color: $card-accent-color;
 
