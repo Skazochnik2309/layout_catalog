@@ -1,14 +1,13 @@
 .header {
   height: $header-height;
   background-color: #fff;
-  
+
   &__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 
     height: 100%;
-    padding-inline: 40px;
+    padding: 0 50px;
   }
 
   &__logo {
