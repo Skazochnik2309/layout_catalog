@@ -92,15 +92,12 @@
     align-items: center;
     justify-content: center;
 
-    box-sizing: border-box;
     width: 166px;
     height: 40px;
+    border: $card-border-width solid transparent;
     border-radius: $card-border-radius;
 
-    font-size: 14px;
-    font-weight: 700;
     color: $card-background-color;
-    text-decoration: none;
 
     background-color: $card-accent-color;
 
@@ -111,7 +108,7 @@
   }
 
   &__buy:hover {
-    border: $card-border-width solid $card-accent-color;
+    border-color: $card-accent-color;
     color: $card-accent-color;
     background-color: $card-background-color;
   }
