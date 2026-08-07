@@ -1,8 +1,7 @@
-@import './variables';
-@import './reset';
-
-@import './blocks/header';
-@import './blocks/nav';
-@import './blocks/catalog';
-@import './blocks/card';
-@import './blocks/stars';
+@use './variables';
+@use './reset';
+@use './blocks/header';
+@use './blocks/nav';
+@use './blocks/catalog';
+@use './blocks/card';
+@use './blocks/stars';
