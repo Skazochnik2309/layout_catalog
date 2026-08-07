@@ -37,25 +37,25 @@
     text-transform: uppercase;
     text-decoration: none;
 
-    transition: color 300ms;
+    transition: color $transition;
 
     &::after {
       content: '';
 
       position: absolute;
-      left: 0;
       bottom: 0;
+      left: 0;
 
       width: 0;
       height: 4px;
 
       background-color: $color-nav-active;
 
-      transition: width 300ms;
+      transition: width $transition;
     }
 
     &:hover {
-      color: $color-nav-active;
+      color: $color-nav-default;
     }
 
     &.is-active {
