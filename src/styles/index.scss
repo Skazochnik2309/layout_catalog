@@ -1,7 +1,11 @@
-@use './variables' as *;
 @use './reset';
+@use './variables';
 @use './blocks/header';
 @use './blocks/nav';
 @use './blocks/catalog';
 @use './blocks/card';
 @use './blocks/stars';
+
+body {
+  margin: 0;
+}
